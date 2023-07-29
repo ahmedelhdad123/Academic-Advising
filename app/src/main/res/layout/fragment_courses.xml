@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5E4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:text="Developer Roadmaps"
+        android:textColor="@color/green"
+        android:textSize="35sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF5E4">
+        <!-- before -->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/java"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/big_btn"
+                android:shadowColor="#D8BBBB"
+                android:text="@string/java"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Cpp"
+                android:textColor="@color/white"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="C++ Developer"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button3"
+                android:textColor="@color/white"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Backend Developer"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button4"
+                android:textColor="@color/white"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="DevOps"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/android"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:text="Android Developer"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button6"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:text="Blockchain Developer"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button7"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:text="Flutter Developer"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button8"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:text="Cyber Security"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button9"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:text="UX Design"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button11"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/big_btn"
+                android:textAllCaps="false"
+                android:text="React Developer"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/java_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/java"
+                    android:text="Java"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cpp_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/cpp"
+                    android:text="C++"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/android_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/android"
+                    android:text="Android"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/frontend_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/cloed"
+                    android:text="Frontend"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b5_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/js"
+                    android:text="Node.js"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b6_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/python"
+                    android:text="Python "
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b7_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/react"
+                    android:text="React"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b8_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/flutter"
+                    android:text="Flutter"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/backend_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/tech"
+                    android:text="Backend"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b2_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/code2"
+                    android:text="DevOps"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b3_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/tech"
+                    android:text="Cyber Security"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b4_map"
+                    android:layout_width="160dp"
+                    android:layout_height="128dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/big_btn"
+                    android:drawableTop="@drawable/code"
+                    android:text="UX Design"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment.Calc_GpaFragment"
+    android:background="@color/caffe">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/six_subjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roadmap_course"
+            android:text="Calc 6"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+            android:layout_margin="10dp"
+            >
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/five_subjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roadmap_course"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:text="Calc 5">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calculate_6"
+        android:layout_width="160dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/big_btn"
+        android:drawableTop="@drawable/calc"
+        android:drawablePadding="-7dp"
+        android:text="Calc 6"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calculate_5"
+        android:layout_width="160dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/big_btn"
+        android:drawableTop="@drawable/calc"
+        android:drawablePadding="-7dp"
+        android:text="Calc 5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</FrameLayout>

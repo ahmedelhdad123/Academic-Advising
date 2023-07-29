@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/timeline"
+            android:title="@string/time_line"
+            android:icon="@drawable/time_line">
+        </item>
+        <item android:id="@+id/Chat"
+            android:title="@string/chat"
+            android:icon="@drawable/chat">
+        </item>
+        <item android:id="@+id/calculate_gpa"
+            android:title="@string/calculate_gpa"
+            android:icon="@drawable/gpa">
+        </item>
+        <item android:id="@+id/AAu"
+            android:title="@string/aau"
+            android:icon="@drawable/auu">
+        </item>
+        <item android:id="@+id/about_college"
+            android:title="@string/about_college"
+            android:icon="@drawable/about_college">
+        </item>
+        <item android:id="@+id/courses"
+            android:title="@string/courses"
+            android:icon="@drawable/courses">
+        </item>
+    </group>
+    <item android:id="@+id/other_menu"
+        android:title="Others">
+        <menu>
+            <item android:id="@+id/logout"
+                android:title="@string/logout"
+                android:icon="@drawable/log_out">
+            </item>
+        </menu>
+    </item>
+
+</menu>

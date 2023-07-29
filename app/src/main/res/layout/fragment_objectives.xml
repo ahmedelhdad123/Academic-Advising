@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AAU.Objectives"
+    android:background="@color/caffe">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/green"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/arrow_back"
+                android:layout_width="26dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="11dp"
+                android:text="Objectives"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:paddingBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="20sp"
+                    android:text="The objectives of the academic advising unit in the Faculty of Computer Science are to provide academic guidance and support to students pursuing degrees in computer science. Some of the specific objectives of the academic advising unit in the Faculty of Computer Science may include:"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="20sp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:text="1. Academic planning: The academic advising unit can help students develop academic plans that align with their career goals and interests within the field of computer science."
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="20sp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:layout_marginBottom="10dp"
+                    android:text="2. Course selection: The advising unit can provide guidance on selecting courses that fulfill degree requirements and align with a student's academic and career goals.">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="3. Career guidance: The academic advising unit can provide information about career options and opportunities within the field of computer science and assist students in developing job search strategies."
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="20sp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:text="4. Referrals to campus resources: The academic advising unit can refer students to other campus resources, such as tutoring, career services, or research opportunities, to enhance their academic experience.">
+            </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="3dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="20sp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:text="5. Academic policy guidance: The advising unit can provide information about academic policies and procedures and help students navigate any issues or challenges that may arise.">
+            </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="6. Mentorship and networking: The academic advising unit can connect students with faculty members or alumni who can provide mentorship and networking opportunities within the field of computer science."
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:layout_marginBottom="70dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Overall, the objectives of the academic advising unit in the Faculty of Computer Science are to support students in achieving their academic and career goals within the field of computer science and to enhance their overall academic experience."
+                    android:textSize="20sp"></TextView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
